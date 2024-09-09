@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(57, 55, 55);
+}
+
+h2 {
+    margin: 10px;
+    font-family: "Audiowide", sans-serif;
+    font-size: 40px;
+}
+
+p {
+    color: white;
+    margin: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+
+.picture {
+    float: left;
+    margin: 10px;
+    display: block;
+
+}
+
+#picture-1 {
+    width: 31.75%;
+}
+
+#picture-2 {
+    width: 31.75%;
+}
+
+#picture-3 {
+    width: 31.75%;
+}
+
+.para {
+    float: left;
+    margin: 10px;
+    text-align: center;
+}
+
+#p-1 {
+    width: 31%;
+}
+
+#p-2 {
+    width: 31%;
+}
+
+#p-3 {
+    width: 31%;
+}
+
+#home-header {
+    background-color: #d57637;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav {
+    font-family: "Audiowide", sans-serif;
+}
+
+ul {
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+  }
+  li {
+    display: inline-block;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0
+  }
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+ 
